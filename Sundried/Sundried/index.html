@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sundried Mashup</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+
+    <div class="navbar">
+      <div class="logo"></div>
+      <ul class="menu">
+        <a href="#"><li onclick="changePage('Dashboard')">Dashboard</li></a>
+        <a href="#"><li onclick="changePage('Analysis')">Analysis</li></a>
+      </ul>
+    </div>
+
+    <div class="currentSelections" id="currentSelections">
+
+    </div>
+
+    <div class="container-fluid" id="dashPage">
+      <div class="row">
+        <div class="col-xs-12 col-md-6 col-lg-3">
+          <div class="kpi-object" id="dashKpi1"></div>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-3">
+          <div class="list-object" id="dashList1"></div>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-3">
+          <div class="kpi-object" id="dashKpi2"></div>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-3">
+          <div class="list-object" id="dashList2"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-md-6 col-lg-6">
+          <div class="chart-object" id="dashChart1"></div>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-6">
+          <div class="chart-object" id="dashChart2"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid" style="display:none" id="analysisPage">
+      <div class="row">
+        <div class="col-xs-12 col-md-6 col-lg-6">
+          <div class="chart-object" id="analysisPie1"></div>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-6">
+          <div class="chart-object" id="analysisPie2"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-md-12 col-lg-12">
+          <div class="chart-object" id="analysisChart1"></div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <script src="amcharts.js" charset="utf-8"></script>
+    <script src="serial.js" charset="utf-8"></script>
+    <script src="pie.js" charset="utf-8"></script>
+    <script src="enigma.min.js" charset="utf-8"></script>
+    <script src="schema.js" charset="utf-8"></script>
+    <script src="./script.js" charset="utf-8"></script>
+  </body>
+</html>

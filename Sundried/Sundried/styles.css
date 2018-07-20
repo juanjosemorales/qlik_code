@@ -1,0 +1,79 @@
+div[class^='col-']{
+  padding-left: 2px;
+  padding-right: 2px;
+}
+body{
+  margin:0px;
+  padding: 0px;
+  font-family: Stellar;
+}
+.navbar{
+  height: 80px;
+  background-color: #404040;
+}
+.logo{
+  background-image: url("http://www.websy.io/resources/WebsyLogoNew.png");
+  background-size: contain;
+  display: inline-block;
+  height: 70px;
+  width: 140px;
+  position: relative;
+  top: 7px;
+  background-repeat: no-repeat;
+}
+.menu{
+  display: inline-block;
+  float: right;
+}
+.menu li{
+  list-style-type: none;
+  margin-right: 40px;
+  position: relative;
+  top: 47px;
+  right: 26px;
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 1px;
+}
+.kpi-object{
+  height: 250px;
+}
+.chart-object{
+  height: 400px;
+}
+.list-object{
+  height: 250px;
+}
+.list-object ul{
+  padding: 0px;
+  margin: 0px;
+}
+.list-object li{
+  font-size: 23px;
+  list-style-type: none;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+.state-O{
+  background-color: lightblue;
+}
+.state-S{
+  background-color: green;
+}
+.state-X{
+  background-color: darkgrey;
+}
+.currentSelections{
+  height: 20px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #404040;
+}
+.currentSelections span{
+  border: 1px solid #404040;
+  margin-right: 5px;
+  padding: 9px;
+  position: relative;
+  bottom: 10px;
+}
